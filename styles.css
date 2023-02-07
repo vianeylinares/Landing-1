@@ -1,0 +1,71 @@
+/* General styles */
+
+body{
+	margin: 0;
+}
+
+.font-color-white{
+	color: #ffffff;
+}
+
+.text-shadow-black{
+	text-shadow: 1px 1px 1px #000000;
+}
+
+
+/* Header section */
+
+.header{
+	width: 100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-image: url(0-header.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	position: relative;
+}
+
+.logo{
+	width: 150px;
+}
+
+.header-texts{
+	position: absolute;
+	bottom: 3vh;
+}
+
+.header-texts h2,
+.header-texts p{
+	margin-bottom: 5vh;
+}
+
+.header-texts h2{
+	font-size: 3.9vw;
+}
+
+.header-texts p{
+	font-size: 2vw;
+	line-height: 130%;
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+
+	.header-texts h2,
+	.header-texts p{ margin-bottom: 5vh; }
+	.header-texts h2{ font-size: 5vw; }
+	.header-texts p{ font-size: 2.5vw; }
+
+}
+
+@media(max-width: 767px){
+
+	.header-texts h2,
+	.header-texts p{ margin-bottom: 2.5vh; }
+	.header-texts h2{ font-size: 6vw; }
+	.header-texts p{ font-size: 3.5vw; }
+}
