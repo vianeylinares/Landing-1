@@ -40,7 +40,7 @@ body{
 	box-sizing: border-box;
 	background-image: url(0-header.jpg);
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
 	background-repeat: no-repeat;
 	padding-left: 5%;
 	padding-right: 5%;
