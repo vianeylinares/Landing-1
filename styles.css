@@ -228,11 +228,38 @@ body{
 	line-height: 110%;
 }
 
+.buttons-box{
+	display: flex;
+	justify-content: center;
+	margin-top: 5vh;
+	flex-wrap: wrap;
+}
+
+.buttons-box .red-button{
+	background-color: #d61920;
+	color: #ffffff;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	min-width: 300px;
+	max-width: 500px;
+	width: 50%;
+	text-decoration: none;
+	border-radius: 25px;
+	font-size: 2vw;
+	line-height: 130%;
+}
+
+.buttons-box .red-button:hover{
+    background-color: #e70b13;
+}
+
 @media(min-width: 768px) and (max-width: 1024px){
 	
 	.wide-section h2{ font-size: 5vw; }
 	.wide-section p{ font-size: 2.5vw; }
 	.icon-description p{ font-size: 2vw; }
+	.buttons-box .red-button{ font-size: 2.5vw; }
 	
 }
 
@@ -243,5 +270,6 @@ body{
 	.icon-box{ flex-basis: 100%; display: flex; }
 	.icon-box img{ margin-bottom: 5vh; }
 	.icon-description{ flex-basis: 100%; font-size: 3vw; }
+	.buttons-box .red-button{ font-size: 3.5vw; width: 100%; }
 	
 }
