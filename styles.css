@@ -16,6 +16,14 @@ body{
 	align-items: center;
 }
 
+.blue-background{
+	background-color: #345ea6;
+}
+
+.center-text{
+	text-align: center;
+}
+
 
 /* Header section */
 
@@ -152,4 +160,46 @@ body{
 	.section-description h2.section-title{ font-size: 6vw; color: #d61920; margin-top: 5vh; }
 	.section-description p{ font-size: 3.5vw; }
 
+}
+
+
+/* Wide sections */
+
+.wide-section{
+	width: 100%;
+	min-height: 100vh;
+	box-sizing: border-box;	
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.wide-section h2{
+	font-size: 3.9vw;
+	margin-bottom: 5vh;
+}
+
+.wide-section p{
+	font-size: 2vw;
+	line-height: 130%;
+}
+
+.wide-section .inner-box{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+	
+	.wide-section h2{ font-size: 5vw; }
+	.wide-section p{ font-size: 2.5vw; }
+	
+}
+
+@media(max-width: 767px){
+	
+	.wide-section h2{ font-size: 6vw; margin-bottom: 2.5vh; }
+	.wide-section p{ font-size: 3.5vw; }
+	
 }
