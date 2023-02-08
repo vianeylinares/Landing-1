@@ -149,19 +149,19 @@ body{
 }
 
 .first{
-	background-image: url(1.png);
+	background-image: url(1.jpg);
 }
 
 .second{
-	background-image: url(2.png);
+	background-image: url(2.jpg);
 }
 
 .third{
-	background-image: url(3.png);
+	background-image: url(3.jpg);
 }
 
 .fourth{
-	background-image: url(4.png);
+	background-image: url(4.jpg);
 }
 
 @media(min-width: 768px) and (max-width: 1024px){
