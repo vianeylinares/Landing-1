@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 /* General styles */
 
 body{
+	font-family: 'Itim', cursive;
 	margin: 0;
 }
 
