@@ -194,17 +194,45 @@ body{
 	line-height: 130%;
 }
 
-.wide-section .inner-box{
+.wide-section .inner-box_10px-padding-sides{
 	width: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
 	box-sizing: border-box;
 }
 
+.wide-section .inner-box_5wv-padding-sides{
+	width: 100%;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.icons-box{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 9vh;
+}
+
+.icon-box{
+	flex-basis: 20%;
+	display: flex;
+}
+
+.icon-description{
+	flex-basis: 80%;
+}
+
+.icon-description p{
+	margin: 0;
+	font-size: 1.6vw;
+	line-height: 110%;
+}
+
 @media(min-width: 768px) and (max-width: 1024px){
 	
 	.wide-section h2{ font-size: 5vw; }
 	.wide-section p{ font-size: 2.5vw; }
+	.icon-description p{ font-size: 2vw; }
 	
 }
 
@@ -212,5 +240,8 @@ body{
 	
 	.wide-section h2{ font-size: 6vw; margin-bottom: 2.5vh; }
 	.wide-section p{ font-size: 3.5vw; }
+	.icon-box{ flex-basis: 100%; display: flex; }
+	.icon-box img{ margin-bottom: 5vh; }
+	.icon-description{ flex-basis: 100%; font-size: 3vw; }
 	
 }
