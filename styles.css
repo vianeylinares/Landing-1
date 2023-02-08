@@ -8,6 +8,10 @@ body{
 	color: #ffffff;
 }
 
+.font-color-blue{
+	color: #345ea6;
+}
+
 .text-shadow-black{
 	text-shadow: 1px 1px 1px #000000;
 }
@@ -93,6 +97,11 @@ body{
 	flex-wrap: wrap;
 }
 
+.divided-section-final h2{
+	font-size: 3.9vw;
+	margin-bottom: 5vh;
+}
+
 .section-description,
 .section-image{
 	flex-basis: 50%;
@@ -149,6 +158,7 @@ body{
 	.section-description h2.section-pre-title{ font-size: 2.3vw; padding-bottom: 10vh; margin-top: 0; }
 	.section-description h2.section-title{ font-size: 2.2vw; }
 	.section-description p{ font-size: 2vw; line-height: 110%; }
+	.divided-section-final h2{ font-size: 5vw; }
 
 }
 
@@ -159,6 +169,7 @@ body{
 	.section-description h2.section-pre-title{ font-size: 6.2vw; padding-bottom: 5vh; margin-top: 0; }
 	.section-description h2.section-title{ font-size: 6vw; color: #d61920; margin-top: 5vh; }
 	.section-description p{ font-size: 3.5vw; }
+	.divided-section-final h2{ font-size: 6vw; margin-bottom: 2.5vh; }
 
 }
 
