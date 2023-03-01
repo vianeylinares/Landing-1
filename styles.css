@@ -19,7 +19,8 @@ body{
 	text-shadow: 1px 1px 1px #000000;
 }
 
-.center-vertically{
+.center-vertically,
+.center-vertically-desktop{
 	align-items: center;
 }
 
@@ -29,6 +30,14 @@ body{
 
 .center-text{
 	text-align: center;
+}
+
+@media(max-width: 1024px){
+
+	.center-vertically-desktop{
+		align-items: normal;
+	}
+
 }
 
 
@@ -134,11 +143,13 @@ body{
 }
 
 .section-description h2.section-title{
-	font-size: 2.2vw; color: #d61920;
+	font-size: 2.2vw;
+	color: #d61920;
 }
 
 .section-description p{
-	font-size: 2vw; line-height: 110%;
+	font-size: 2vw;
+	line-height: 110%;
 }
 
 .section-image{
@@ -162,6 +173,14 @@ body{
 
 .fourth{
 	background-image: url(4.jpg);
+}
+
+@media(max-width: 1024px){
+
+	.section-image {
+	    min-height: auto;
+	}
+
 }
 
 @media(min-width: 768px) and (max-width: 1024px){
@@ -199,6 +218,7 @@ body{
 
 .wide-section h2{
 	font-size: 3.9vw;
+	margin-top: 0;
 	margin-bottom: 5vh;
 }
 
@@ -265,6 +285,16 @@ body{
 
 .buttons-box .red-button:hover{
     background-color: #e70b13;
+}
+
+@media(max-width: 1024px){
+
+	.wide-section {
+		min-height: auto;
+		padding-top: 7vh;
+		padding-bottom: 7vh;
+	}
+
 }
 
 @media(min-width: 768px) and (max-width: 1024px){
