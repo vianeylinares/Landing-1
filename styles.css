@@ -108,6 +108,20 @@ body{
 
 }
 
+@media(max-width: 767px) and (orientation: landscape){
+
+	.header{
+		min-height: 100vh;
+		height: auto;
+	}
+
+	.header-texts{
+		position: relative;
+		bottom: auto;
+	}
+
+}
+
 
 /* Divided sections */
 
