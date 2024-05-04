@@ -72,12 +72,12 @@ body{
 	bottom: 3vh;
 }
 
-.header-texts h2,
+.header-texts h1,
 .header-texts p{
 	margin-bottom: 5vh;
 }
 
-.header-texts h2{
+.header-texts h1{
 	font-size: 3.9vw;
 }
 
@@ -88,9 +88,9 @@ body{
 
 @media(min-width: 768px) and (max-width: 1024px){
 
-	.header-texts h2,
+	.header-texts h1,
 	.header-texts p{ margin-bottom: 5vh; }
-	.header-texts h2{ font-size: 5vw; }
+	.header-texts h1{ font-size: 5vw; }
 	.header-texts p{ font-size: 2.5vw; }
 
 	.logo-text{ font-size: 10vw; }
@@ -99,9 +99,9 @@ body{
 
 @media(max-width: 767px){
 
-	.header-texts h2,
+	.header-texts h1,
 	.header-texts p{ margin-bottom: 2.5vh; }
-	.header-texts h2{ font-size: 6vw; }
+	.header-texts h1{ font-size: 6vw; }
 	.header-texts p{ font-size: 3.5vw; }
 
 	.logo-text{ font-size: 15vw; }
@@ -156,7 +156,7 @@ body{
 	margin-top: 0;
 }
 
-.section-description h2.section-title{
+.section-description h3.section-title{
 	font-size: 2.2vw;
 	color: #d61920;
 }
@@ -202,7 +202,7 @@ body{
 	.section-description,
 	.section-image{ flex-basis: 50%; }
 	.section-description h2.section-pre-title{ font-size: 2.3vw; padding-bottom: 10vh; margin-top: 0; }
-	.section-description h2.section-title{ font-size: 2.2vw; }
+	.section-description h3.section-title{ font-size: 2.2vw; }
 	.section-description p{ font-size: 2vw; line-height: 110%; }
 	.divided-section-final h2{ font-size: 5vw; }
 
@@ -213,7 +213,7 @@ body{
 	.section-description{ flex-basis: 100%; height: auto; }
 	.section-image{ flex-basis: 100%; height: 300px; min-height: auto; }
 	.section-description h2.section-pre-title{ font-size: 6.2vw; padding-bottom: 5vh; margin-top: 0; }
-	.section-description h2.section-title{ font-size: 6vw; color: #d61920; margin-top: 5vh; }
+	.section-description h3.section-title{ font-size: 6vw; color: #d61920; margin-top: 5vh; }
 	.section-description p{ font-size: 3.5vw; }
 	.divided-section-final h2{ font-size: 6vw; margin-bottom: 2.5vh; }
 
